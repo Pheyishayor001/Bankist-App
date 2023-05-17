@@ -282,8 +282,8 @@ btnLogin.addEventListener('click', function (e) {
     inputLoginPin.blur();
 
     // timer
-    // if (timer) clearInterval(timer);
-    // timer = startLogOutTimer();
+    if (timer) clearInterval(timer);
+    timer = startLogOutTimer();
 
     // Update UI
     updateUI(currentAccount);
